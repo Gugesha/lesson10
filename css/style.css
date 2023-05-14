@@ -1,0 +1,115 @@
+.header-div{
+    display: flex;
+    justify-content: space-around;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+}
+.nav-item{
+    width: 281px;
+
+}
+.ul-item{
+    display: flex;
+    justify-content: space-between;
+}
+.action{
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;   
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sofa{
+    background-image: url("../img/sofa.jpg");
+    width: 490px;
+    height: 482px;
+    background-repeat: no-repeat;
+}
+.top-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 556px;
+    
+}
+.wraper{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-top: 44px;
+}
+.text-side{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-side h2{
+    margin-bottom: 24px;
+}
+/* .text-side p{
+    padding-bottom: 40px;
+} */
+
+/* Grey section */
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+.satauri{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 360px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div2{
+    height: 256px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 30px;
+}
+
+/* BLACK SECTION */
+.taro{
+    background-image: url("../img/taro.jpg");
+    background-position: center;
+    width: 503.5px;
+    height: 428px;
+    border-radius: 12px;
+}
+.section2{
+    background-color: black;
+}
+.black{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: 96px auto
+}
+.right-text{
+    height: 264px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
