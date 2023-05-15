@@ -18,19 +18,33 @@
         border-radius: 12px;
         margin-bottom: 32px;
     }
+    .people{
+        width: 370px;
+    }
     .wraper{
         margin-top: 20px;
         margin-bottom: 68px;
     }
-    .taro{
-        width: 93.75%;
-        height: 550px;
-        margin: 32px;
-        background-size: cover;
-        background-position: center;
-    }
     .black{
         flex-direction: column;
+        height: 895px;
+    }
+    .taro{
+        width: 93.5%;
+        height: 550px;
+    }
+    .text-div{
+        width: 93.5%;
+        height: 185px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-div h3{
+        width: 415.5px;
+        height: 96px;
+    }
+    .alltext{
+        width: 415.5px;
     }
 }
 @media(max-width:744px){
@@ -67,6 +81,23 @@
     .container p{
         padding-bottom: 20px;
     }
+    .black{
+        height: 917px;
+
+    }
+    .text-div{
+        flex-direction: column;
+        width: 93.5%;
+        height: 290px;
+        align-items: center;
+        text-align: center;
+    }
+    .alltext{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 197px;
+    }
+
 }
 @media (max-width:375px){
     .nav-item{
@@ -74,6 +105,10 @@
     }
     .sofa{
         margin-bottom: 21px;
+    }
+    .people{
+        width:93.5%;
+        text-align: center;
     }
     .container{
         height: 170px;
@@ -83,5 +118,25 @@
     }
     .wraper{
         height: 112px;
+    }
+    .black{
+        height: 523px;
+        padding: 24px;
+    }
+    .taro{
+        height: 195px;
+    }
+    .text-div{
+        height: 266px;
+        width: 93.5%;
+        align-items: center;
+        text-align: center;
+    }
+    .text-div h3{
+        width: 93.5%;
+        height: 64px;
+    }
+    .alltext {
+        width: 93.5%;
     }
 }

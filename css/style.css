@@ -1,6 +1,6 @@
 .header-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 69px;
     width: 100%;
     align-items: center;
@@ -19,7 +19,7 @@
     border-radius: 32px;   
     background-color: black;
     color: #fff;
-    display: flex;
+    display: flex;;
     justify-content: center;
     align-items: center;
 }
@@ -41,6 +41,10 @@
     align-items: center;
     height: 48px;
     margin-top: 44px;
+}
+.people{
+    width:236px;
+    margin-left: 20px;
 }
 .text-side{
     width: 490px;
@@ -83,33 +87,33 @@
 }
 
 /* BLACK SECTION */
+.black{
+    width: 100%;
+    height: 620px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .taro{
     background-image: url("../img/taro.jpg");
-    background-position: center;
     width: 503.5px;
     height: 428px;
     border-radius: 12px;
+    background-position: center;
+    background-size: cover;
 }
-.section2{
-    background-color: black;
-}
-.black{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1140px;
-    margin: 96px auto
-}
-.right-text{
-    height: 264px;
+.text-div{
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 503.5px;
+    height: 264px;
 }
-.text-block{
+.text-div h3{
+    margin-bottom: 16px;
+}
+.alltext{
+    height: 186px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 120px;
 }
